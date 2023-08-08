@@ -21,7 +21,7 @@ public class MainActivityJava extends AppCompatActivity {
         View view = binding.getRoot();
         setContentView(view);
         binding.txtNumber.setText(String.valueOf(number));
-
+        // increment number and set txtNumber
         binding.btnCount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
