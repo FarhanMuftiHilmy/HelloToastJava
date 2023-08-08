@@ -29,7 +29,7 @@ public class MainActivityJava extends AppCompatActivity {
                 binding.txtNumber.setText(String.valueOf(number));
             }
         });
-
+        // show toast
         binding.btnToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
